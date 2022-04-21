@@ -60,3 +60,31 @@ function getIndexOfIns(arr, num) {
 getIndexOfIns(['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'], 5)
 console.log(number)
 
+//console a until it is less than 10
+let a = 0
+while (a > 10) {
+    console.log(a)
+    a++;
+}
+
+//print prime numbers until 10
+let n = 10;
+
+primeNum:
+for (let i = 2; i <= n; i++) { 
+
+  for (let j = 2; j < i; j++) { 
+    if (i % j == 0) continue primeNum; 
+  }
+
+  console.log( i ); 
+}
+
+//console odd number until 10
+for (let i = 0; i < 10; i++) {
+
+  if (i % 2) {
+    console.log( i );
+  }
+
+}
