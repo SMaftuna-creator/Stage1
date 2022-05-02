@@ -1,53 +1,53 @@
 // performing addition
 // addition of string with boolean
-alert( '4 ' +  true );  // 4 true
-alert( '4 ' + "" ); // 4
+console.log( '4 ' +  true );  // 4 true
+console.log( '4 ' + "" ); // 4
 
 //string + number
-alert( '5' + 6 ); // 56
-alert('12' + 34); // 1234
+console.log( '5' + 6 ); // 56
+console.log('12' + 34); // 1234
 
 // number + boolean 
-alert(7 + true); // 8
-alert (7 + ""); // 7
+console.log(7 + true); // 8
+console.log (7 + ""); // 7
 
 
 // performing multiplication
 // multiplication of string with boolean
-alert( '4 ' *  true );  // 4
-alert( '4 ' * "" ); // 0
+console.log( '4 ' *  true );  // 4
+console.log( '4 ' * "" ); // 0
 
 //string * number
-alert( '5' * 6 ); // 30
-alert('12' * 34); // 408
+console.log( '5' * 6 ); // 30
+console.log('12' * 34); // 408
 
 // number * boolean 
-alert(8 * true); // 7
-alert (7 * ""); // 0
+console.log(8 * true); // 7
+console.log (7 * ""); // 0
 
 
 //Division
 // division of string with boolean
-alert( '10 ' /  true );  // 10
-alert( '6 ' / "" ); //  infinity
+console.log( '10 ' /  true );  // 10
+console.log( '6 ' / "" ); //  infinity
 
 //string / number
-alert( '12' / 6 ); // 2
-alert('102' / 34); // 3
+console.log( '12' / 6 ); // 2
+console.log('102' / 34); // 3
 
 // number / boolean 
-alert(7 / true); // 7
-alert (9 / ""); //  Infinity
+console.log(7 / true); // 7
+console.log (9 / ""); //  Infinity
 
 
 //explicit conversion
 // number conversion
-alert( "15" / "3" ); // 5, strings are converted to numbers
+console.log( "15" / "3" ); // 5, strings are converted to numbers
 
 //string conversion
 let value = true;
-alert(typeof value); // boolean
+console.log(typeof value); // boolean
 
 //boolean conversion
-alert( Boolean(1) ); // true
-alert( Boolean(0) ); // false
+console.log( Boolean(1) ); // true
+console.log( Boolean(0) ); // false
