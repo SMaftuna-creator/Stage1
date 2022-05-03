@@ -2,7 +2,7 @@ let car = {
   color: "black",
 }
 // to check the color of the car:
-alert( car.color ) // black
+console.log( car.color ) // black
 
 
 let car = {
@@ -10,7 +10,7 @@ let car = {
   color: "green",
 }
 // to check the color of the car:
-alert( car.color ) // green
+console.log( car.color ) // green
 
 
 let car = {
@@ -60,4 +60,4 @@ if(isPrime % i === 0){
 }else {
     x = "This is prime number!";
 }
-alert (x);
+console.log (x);
