@@ -6,17 +6,17 @@ console.log( car.color ) // black
 
 
 let car = {
-  color: "black",
   color: "green",
 }
 // to check the color of the car:
 console.log( car.color ) // green
 
 
-let car = {
-engine_power: '500'
+function power() {
+    let engine = 500;
+    console.log(engine);
 }
-console.log(car)
+power();
 
 
 let warehouse = {
