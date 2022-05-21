@@ -19,17 +19,20 @@ function power() {
 power();
 
 
-let warehouse = {
-  apple: 82,
-  pear: 58,
-};
+function wrhsAccptd() {
+    let warehouse = {
+        apple: 82,
+        pear: 58,
+    };
 
-let sum = 0;
-for (let key in warehouse) {
-  sum += warehouse[key];
+    let sum = 0;
+    for (let key in warehouse) {
+        sum += warehouse[key];
+    }
+
+    console.log(sum + ' kg');
 }
-
-console.log(sum + ' kg');
+wrhsAccptd()
 
 
 let user = {
