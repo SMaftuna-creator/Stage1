@@ -58,6 +58,7 @@ console.log((x / y), typeof(x / y)) // 2 'number'
 findTypes();
 
 
+function primeNumber(){
 const isPrime = prompt("Please enter any number", " ");
 for(let i = 2, s = Math.sqrt(isPrime); i <= s; i++)
 if(isPrime % i === 0){
@@ -66,3 +67,5 @@ if(isPrime % i === 0){
     x = "This is prime number!";
 }
 console.log (x);
+}
+primeNumber();
