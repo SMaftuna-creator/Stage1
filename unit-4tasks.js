@@ -32,7 +32,7 @@ function wrhsAccptd() {
 
     console.log(sum + ' kg');
 }
-wrhsAccptd()
+wrhsAccptd();
 
 
 let user = {
@@ -47,13 +47,15 @@ prompt("There is no such name")
 alert(user[key]);
 
 
+function findTypes() {
 let x = 24, y = 12, z = '12';
 console.log((x + y), typeof(x + y)) // 36 'number
 console.log((x + z), typeof(x + z)) // 2412 string, second form of addition number with string, z is string, this is why output is string
 console.log((x - y), typeof(x - y)) // 12 'number'
 console.log((x * y), typeof(x * y)) // 288 'number'
 console.log((x / y), typeof(x / y)) // 2 'number'
-
+}
+findTypes();
 
 
 const isPrime = prompt("Please enter any number", " ");
