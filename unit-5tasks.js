@@ -1,6 +1,9 @@
 let movies = ["Code 355", "Unbroken", "Little women"];
-console.log( movies );
+movies.forEach(console.log)
 
+    ****or****
+    
+["Code 355", "Unbroken", "Little women"].forEach(console.log);
 
 
 let numbers = [10, 15, 20, 30];
