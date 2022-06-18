@@ -9,4 +9,4 @@ console.log(result);
 
 
 let date = new Date();
-console.log( date.getFullYear(), date.getDate(), date.getMonth() );
+console.log( date.getFullYear(), date.getDate(), date.getMonth()+1 );
