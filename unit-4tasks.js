@@ -39,18 +39,17 @@ wrhsAccptd(warehouse)
 
 let user = {
     name: "Maftuna",
-  };
-
+};
 
 const showName = (obj, name) => {
     for (var key in obj){
       obj[key] === name ?
-      prompt("Hello", name) :
-      prompt("There is no such name")
+      console.log("Hello", name) :
+      console.log("There is no such name")
     }
   }
   
-  showName(user, "Maftuna") // writing a name different than Maftuna will cause to prompt "There is no such name"
+showName(user, "Maftuna") // writing a name different than Maftuna will cause to prompt "There is no such name"
 
 
 function findTypes() {
