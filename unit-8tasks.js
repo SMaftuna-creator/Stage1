@@ -8,11 +8,11 @@ try {
 // next task
 
 try {
-  let a = 1 / 0;
-  if (a === 'Infinity');
+    let a = 1 / 0;
+    if (a === Infinity) {
+        throw Error('Cannot be divided by zero');
+    }
+    console.log('message')
 } catch (err) {
-  console.log( 'catch' );
-} finally {
-  console.log( 'Cannot be divided by zero' );
+    console.log(err);
 }
-
