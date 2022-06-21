@@ -6,10 +6,10 @@ console.log( car.color ) // black
 
 
 let car = {
-  color: "green",
+  color: "black",
 }
-// to check the color of the car:
-console.log( car.color ) // green
+car.color = "green"
+console.log(car.color) // green
 
 
 function power() {
